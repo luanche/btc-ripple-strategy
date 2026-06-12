@@ -9,6 +9,8 @@ on:
 jobs:
   report:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: ⬇️ 检出代码
         uses: actions/checkout@v4
@@ -16,7 +18,7 @@ jobs:
       - name: 🔧 安装 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: 📥 更新 BTC 数据
         run: node scripts/fetch_data.js
