@@ -1,0 +1,27 @@
+{
+  "name": "涟漪策略",
+  "nameEn": "Ripple Strategy",
+  "version": "2.0.0",
+  "description": "自适应牛熊的越跌越买策略 — MA60 趋势过滤",
+  "optimizedDate": "2026-06-12",
+  "parameters": {
+    "initialUSDT": 10000,
+    "bull": {
+      "baseBuyUSDT": 30,
+      "buyMultiplierPerDownDay": 3,
+      "maxBuyUSDT": 1000,
+      "upBuyAmt": 5,
+      "sellPctPerUpDay": 0.005,
+      "maxSellPctPerDay": 0.05
+    },
+    "bear": {
+      "baseBuyUSDT": 15,
+      "buyMultiplierPerDownDay": 2,
+      "maxBuyUSDT": 300,
+      "upBuyAmt": 0,
+      "sellPctPerUpDay": 0.01,
+      "maxSellPctPerDay": 0.10
+    },
+    "trendPeriod": 60
+  }
+}

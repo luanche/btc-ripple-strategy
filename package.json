@@ -1,0 +1,16 @@
+{
+  "name": "btc-algo",
+  "version": "2.0.0",
+  "description": "BTC 量化策略回测与日报系统",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch_data.js",
+    "report": "node scripts/daily_report.js",
+    "backtest": "node comparison/index.js",
+    "ripple": "node strategies/ripple/strategy.js",
+    "ripple:live": "node strategies/ripple/strategy.js --live",
+    "ma": "node strategies/ma-crossover/strategy.js",
+    "bollinger": "node strategies/bollinger/strategy.js",
+    "dca": "node strategies/dca/strategy.js"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-06-12T14:51:39.265Z",
+  "dataRange": "2023-06-12 ~ 2026-06-12",
+  "results": [
+    {
+      "name": "🏦 持有不动",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 24491.3,
+        "profit": 14491.3,
+        "profitPct": 144.91,
+        "maxDrawdown": 51.16,
+        "buyCount": 1,
+        "sellCount": 0,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    },
+    {
+      "name": "📈 双均线交叉",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 19072.07,
+        "profit": 9072.07,
+        "profitPct": 90.72,
+        "maxDrawdown": 36.55,
+        "buyCount": 11,
+        "sellCount": 11,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    },
+    {
+      "name": "🌊 涟漪策略 V2",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 15740.87,
+        "profit": 5740.87,
+        "profitPct": 57.41,
+        "maxDrawdown": 19.89,
+        "buyCount": 898,
+        "sellCount": 554,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    },
+    {
+      "name": "💰 定期定投 DCA",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 12396.93,
+        "profit": 2396.93,
+        "profitPct": 23.97,
+        "maxDrawdown": 51.16,
+        "buyCount": 100,
+        "sellCount": 0,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    },
+    {
+      "name": "📉 布林带回归",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 12388.96,
+        "profit": 2388.96,
+        "profitPct": 23.89,
+        "maxDrawdown": 14.53,
+        "buyCount": 55,
+        "sellCount": 74,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    },
+    {
+      "name": "🚀 动量突破",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 10000,
+        "profit": 0,
+        "profitPct": 0,
+        "maxDrawdown": 0,
+        "buyCount": 0,
+        "sellCount": 0,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    },
+    {
+      "name": "🐂🐻 牛持熊投",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 9879.73,
+        "profit": -120.27,
+        "profitPct": -1.2,
+        "maxDrawdown": 39.88,
+        "buyCount": 334,
+        "sellCount": 13,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    },
+    {
+      "name": "📊 RSI 超买超卖",
+      "summary": {
+        "initialUSDT": 10000,
+        "finalValue": 9806.21,
+        "profit": -193.79,
+        "profitPct": -1.94,
+        "maxDrawdown": 44.64,
+        "buyCount": 13,
+        "sellCount": 12,
+        "totalDays": 1097,
+        "startDate": "2023-06-12",
+        "endDate": "2026-06-12",
+        "btcStart": 25905.19,
+        "btcEnd": 63445.19,
+        "btcReturn": 144.91
+      }
+    }
+  ]
+}

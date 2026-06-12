@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+.yesterday_results.json
+daily_report.html
+**/backtest_result.json
